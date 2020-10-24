@@ -63,7 +63,7 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource,U
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print(indexPath.row)
+        print("cell Tapped!...")
     }
     
 }
